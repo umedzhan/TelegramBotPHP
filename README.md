@@ -111,7 +111,7 @@ Use this method to send text messages. On success, the sent Message is returned.
 	</tr>
 	<tr>
 		<td>reply_markup</td>
-		<td>InlineKeyboardMarkup or ReplyKeyboardMarkup or ReplyKeyboardRemove or ForceReply</td>
+		<td>InlineKeyboardMarkup or<br> ReplyKeyboardMarkup or<br> ReplyKeyboardRemove or<br> ForceReply</td>
 		<td>Optional</td>
 	</tr>
 	<tr>
