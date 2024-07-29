@@ -19,6 +19,10 @@ function bot($method, $data = []) {
 
 $update = json_decode(file_get_contents('php://input'), true);
 
+```
+
+**Message**
+```php
 if (isset($update['message'])) {
 
 	$message = $update['message'];
