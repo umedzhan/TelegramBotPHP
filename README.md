@@ -46,7 +46,7 @@ if (isset($update['callback_query'])) {
 	//code
 }
 ```
-
+<table>
 <th>
 	<td>1</td>
  	<td>2</td>
@@ -55,3 +55,4 @@ if (isset($update['callback_query'])) {
 		<td>1</td>
 		<td>2</td>
 	</tr>
+</table>
