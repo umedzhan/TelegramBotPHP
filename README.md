@@ -32,3 +32,16 @@ if (isset($update['message'])) {
 	//code...
 }
 ```
+
+**Callback Query**
+```php
+if (isset($update['callback_query'])) {
+	
+	$callbackQuery = $update['callback_query'];
+	$text = $callbackQuery['data'];
+	$ccid = $callbackQuery['message']['chat']['id'];
+	$callbackMessageId = $callbackQuery['message']['message_id'];
+
+	//code
+}
+```
