@@ -123,10 +123,10 @@ Use this method to send text messages. On success, the sent Message is returned.
 	</tr>
 	<tr>
 		<td>reply_markup</td>
-		<td><a href="https://core.telegram.org/bots/api#inlinekeyboardmarkup">InlineKeyboardMarkup</a> or <br>
-		<a href="https://core.telegram.org/bots/api#replykeyboardmarkup">ReplyKeyboardMarkup</a> or <br>
+		<td><a href="https://core.telegram.org/bots/api#inlinekeyboardmarkup">InlineKeyboardMarkup</a> or 
+		<a href="https://core.telegram.org/bots/api#replykeyboardmarkup">ReplyKeyboardMarkup</a> or 
 		<a href="https://core.telegram.org/bots/api#replykeyboardremove">ReplyKeyboardRemove</a> or <br>
-		<a href="https://core.telegram.org/bots/api#forcereply">ForceReply</a></td> <br>
+		<a href="https://core.telegram.org/bots/api#forcereply">ForceReply</a></td>
 		<td>Optional</td>
 		<td>Additional interface options. A JSON-serialized object for an inline keyboard, custom reply keyboard, instructions to remove a reply keyboard or to force a reply from the user</td>
 	</tr>
