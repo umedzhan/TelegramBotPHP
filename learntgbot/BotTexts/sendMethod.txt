@@ -1,0 +1,11 @@
+sendMethods
+
+/sendMessage - sendMessage 💬
+/sendPhoto - sendPhoto 🖼️
+/sendVideo - sendVideo 🎞
+/sendAudio - sendAudio 🎧
+/sendDocument - sendDocument 📄
+/sendLocation - sendLocation 📍
+/sendContact - sendContact ☎
+/sendPoll - sendPoll ⁉️
+/sendChatAction - sendChatAction ♨️

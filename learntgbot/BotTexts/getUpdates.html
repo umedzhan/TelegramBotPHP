@@ -1,0 +1,21 @@
+<code>update</code>
+<pre>$update = json_decode(file_get_contents('php://input'), true);</pre>
+
+<code>message</code>
+<pre>$message = $update['message'];
+$ccid = $message['chat']['id']; //chat_id
+$text = isset($message['text']) ? $message['text'] : ''; //text message
+$text_id = $message['message_id']; //text_id
+
+$firstname = $message['chat']['first_name']; //firstname
+$lastname = $message['chat']['last_name'] ?? "null"; //lastname
+$username = $message['from']['username'] ?? 'null'; //username
+$language_code = $message['from']['language_code'] ?? 'null'; //language
+$is_premium = $message['from']['is_premium'] ?? '0'; //premium status
+</pre>
+<code>callback query</code>
+<pre>$callbackQuery = $update['callback_query'];
+$text = $callbackQuery['data'];
+$ccid = $callbackQuery['message']['chat']['id'];
+$callbackMessageId = $callbackQuery['message']['message_id'];
+</pre>
