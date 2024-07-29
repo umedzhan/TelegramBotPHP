@@ -47,7 +47,7 @@ if (isset($update['callback_query'])) {
 }
 ```
 
-**sendMessage**
+**sendMessage**\n
 Use this method to send text messages. On success, the sent Message is returned.
 ```php
 bot('sendMessage', [
