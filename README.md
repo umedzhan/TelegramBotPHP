@@ -48,6 +48,23 @@ if (isset($update['callback_query'])) {
 ```
 **sendMessage** <br>
 Use this method to send text messages. On success, the sent Message is returned.
+<table>
+	<tr>
+		<th>Parameter</th>
+		<th>Type</th>
+		<th>Required</th>
+	</tr>
+	<tr>
+		<td>business_connection_id</td>
+		<td>String</td>
+		<td>Optional</td>
+	</tr>
+	<tr>
+		<td>chat_id</td>
+		<td>Integer or String</td>
+		<td>Yes</td>
+	</tr>
+</table>
 ```php
 bot('sendMessage', [
 	'chat_id' => $ccid,
