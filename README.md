@@ -46,3 +46,12 @@ if (isset($update['callback_query'])) {
 	//code
 }
 ```
+
+<th>
+	<td>1</td>
+ 	<td>2</td>
+</th>
+	<tr>
+		<td>1</td>
+		<td>2</td>
+	</tr>
