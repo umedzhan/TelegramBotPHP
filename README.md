@@ -65,6 +65,7 @@ Use this method to send text messages. On success, the sent Message is returned.
 		<td>Yes</td>
 	</tr>
 </table>
+
 ```php
 bot('sendMessage', [
 	'chat_id' => $ccid,
