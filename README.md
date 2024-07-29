@@ -1,5 +1,11 @@
 # TelegramBot
 
+<h3>SetWebhook</h3>
+
+```
+https://api.telegram.org/bot<TOKEN>/setWebhook?url=https://example.com/index.php
+```
+
 **PHP telegram bot**
 ```php
 <?php
