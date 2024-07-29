@@ -47,10 +47,10 @@ if (isset($update['callback_query'])) {
 }
 ```
 <table>
-<th>
-	<td>1</td>
- 	<td>2</td>
-</th>
+<tr>
+	<th>1</th>
+	<th>2</th>
+</tr>
 	<tr>
 		<td>1</td>
 		<td>2</td>
