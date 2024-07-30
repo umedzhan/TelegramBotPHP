@@ -1,6 +1,6 @@
 <?php
 
-$TOKEN = '7268684551:AAEtY4jT5KtH97hZyf5-bQu___fIZZ7Wvz8';
+$TOKEN = 'BOT_TOKEN';
 
 $channel_info = '-1002163517396';
 $br = "\n";
